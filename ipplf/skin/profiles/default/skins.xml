@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="Skin package for IPPLF website">
+
+    <object name="ipplf_skin_images"
+            meta_type="Filesystem Directory View"
+            directory="ipplf.skin:skins/ipplf_skin_images"/>
+
+    <skin-path name="Skin package for IPPLF website"
+               based-on="Sunburst Theme">
+        <layer name="ipplf_skin_images"
+               insert-after="custom"/>
+
+    </skin-path>
+
+</object>

@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Skin package for IPPLF website"
+      directory="profiles/default"
+      description="Installs profile for Skin package for IPPLF website"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
