@@ -3,5 +3,7 @@
     xmlns:cmf="http://namespaces.zope.org/cmf">
 
    <cmf:registerDirectory name="ipplf_skin_images"/>
+   <cmf:registerDirectory name="ipplf_skin_styles"/>
+   <cmf:registerDirectory name="ipplf_skin_templates"/>
 
 </configure>

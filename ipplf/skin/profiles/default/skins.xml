@@ -7,11 +7,21 @@
     <object name="ipplf_skin_images"
             meta_type="Filesystem Directory View"
             directory="ipplf.skin:skins/ipplf_skin_images"/>
+    <object name="ipplf_skin_templates"
+            meta_type="Filesystem Directory View"
+            directory="ipplf.skin:skins/ipplf_skin_templates"/>
+    <object name="ipplf_skin_styles"
+            meta_type="Filesystem Directory View"
+            directory="ipplf.skin:skins/ipplf_skin_styles"/>
 
     <skin-path name="Skin package for IPPLF website"
                based-on="Sunburst Theme">
         <layer name="ipplf_skin_images"
                insert-after="custom"/>
+        <layer name="ipplf_skin_templates"
+               insert-after="ipplf_skin_images"/>
+        <layer name="ipplf_skin_styles"
+               insert-after="ipplf_skin_templates"/>
 
     </skin-path>
 

@@ -1,6 +1,91 @@
 /*
 Skin package for IPPLF website CSS BY AFFINITIC
 */
+html{
+height:100%;
+}
+
+body{
+background: rgb(129,190,170); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(129,190,170,1) 25%, rgba(129,190,170,1) 29%, rgba(0,85,114,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(25%,rgba(129,190,170,1)), color-stop(29%,rgba(129,190,170,1)), color-stop(100%,rgba(0,85,114,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(129,190,170,1) 25%,rgba(129,190,170,1) 29%,rgba(0,85,114,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(129,190,170,1) 25%,rgba(129,190,170,1) 29%,rgba(0,85,114,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(129,190,170,1) 25%,rgba(129,190,170,1) 29%,rgba(0,85,114,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(129,190,170,1) 25%,rgba(129,190,170,1) 29%,rgba(0,85,114,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81beaa', endColorstr='#005572',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+#wrapper{
+width:1000px;
+min-height:800px;
+margin:auto;
+margin-top:10px;
+border:2px solid #008b8d;
+border-radius:18px;
+box-shadow:8px 8px 16px rgba(50,50,50,0.5),
+           -8px 0px 16px rgba(50,50,50,0.5);
+background-color:#f5efe9;
+}
+
+#top-header-theme{
+border-radius:16px 16px 0px 0px;
+height:60px;
+background:#3f1f1c;
+}
+
+#top-header-nom{
+float:left;
+width:400px;
+color:#fff;
+font-size:1.1em;
+text-align:center;
+margin-left:12px;
+padding-top:10px;
+font-weight:bold;
+}
+
+#top-header-tools{
+float:left;
+width:500px;
+margin-left:55px;
+padding-top:10px;
+font-size:0.8em;
+}
+
+#top-header-tools #portal-siteactions{
+float:left;
+}
+
+#top-header-tools #personal-tools{
+float:right;
+}
+
+
+#top-header-tools #portal-siteactions a{
+color:#81beaa;
+}
+
+#top-header-tools #portal-siteactions a:hover{
+color:#7acad1;
+}
+
+#top-header-tools #portal-personaltools {
+background:none repeat scroll 0 0 #e3e3e3;
+border-radius:0.5em;
+float:right;
+font-size:80%;
+padding:0.25em 0.5em;
+position:relative;
+right:0;
+top:-10px;
+z-index:3;
+}
+
+#content{
+min-height:395px;
+}
 
 #left-column{
 float:left;
@@ -19,3 +104,74 @@ float:none;
 width:95%;
 margin:auto;
 }
+
+
+
+/*** FOOTER ***/
+footer#footer-theme{
+min-height:50px;
+border-top:1px dotted #8b292c;
+padding:1em;
+background:#3f1f1c;
+font-size:0.7em;
+color:#888;
+}
+
+#footer-contact,
+#footer-bureau{
+display:inline-block;
+vertical-align:top;
+margin-left:15px;
+border-right:1px solid #8b292c;
+padding-right:15px;
+}
+
+
+
+/*** COLOPHON ***/
+div#colophon-theme{
+width:100%;
+border-top:1px dotted #8b292c;
+padding:4px 0px;
+background-color:#3f1f1c;
+border-radius:0px 0px 16px 16px;
+}
+
+
+div#colophon-theme div#affinitic,
+div#colophon-theme div#plone{
+font-size:0.7em;
+color:#888;
+}
+
+div#colophon-theme div#affinitic{
+float:left;
+text-align:left;
+margin-left:15px;
+}
+
+div#colophon-theme div#plone{
+float:right;
+text-align:right;
+margin-right:15px;
+}
+
+div#colophon-theme div#affinitic a,
+div#colophon-theme div#plone a{
+color:#b4afa9;
+}
+
+
+div#colophon-theme div#affinitic a:hover,
+div#colophon-theme div#plone a:hover{
+color:#f17a32;
+}
+
+
+
+
+
+
+
+
+

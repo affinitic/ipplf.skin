@@ -33,30 +33,30 @@
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
     <replace css:content-children="#portal-siteactions"
-             css:theme-children="#portal-siteactions" />
+             css:theme-children="#portal-siteactions-theme" />
 
     <replace css:content-children="#portal-personaltools-wrapper"
-             css:theme-children="#personal-tools" />
-        
+             css:theme-children="#personal-tools-theme" />
+
     <replace css:content-children="#portal-logo"
              css:theme-children="#portal-logo" />
 
     <replace css:content-children="#portal-column-one"
-             css:theme-children="#left-column" />
+             css:theme-children="#left-column-theme" />
 
     <replace css:content-children="#portal-column-content"
-             css:theme-children="#main-column"
+             css:theme-children="#main-column-theme"
              if="$have_portlets" />
-    
-    <replace css:content-children="#portal-column-content"
-             css:theme-children="#main-column-large"
-             if="$have_no_portlet" />
-    
-    <replace css:content-children="#portal-colophon"
-             css:theme-children="#colophon" />
 
-    <replace css:content-children="#portal-footer"
-             css:theme-children="#footer" />
+    <replace css:content-children="#portal-column-content"
+             css:theme-children="#main-column-large-theme"
+             if="$have_no_portlet" />
+
+    <!--replace css:content-children="#portal-colophon"
+             css:theme-children="#colophon-theme" /-->
+
+    <!--replace css:content-children="#portal-footer"
+             css:theme-children="#footer-theme" /-->
 
     <drop css:theme="#left-column" if="$have_no_portlet" />
     <drop css:theme="#main-column" if="$have_no_portlet" />
