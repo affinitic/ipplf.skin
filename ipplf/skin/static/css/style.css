@@ -16,6 +16,9 @@ background: radial-gradient(ellipse at center,  rgba(129,190,170,1) 25%,rgba(129
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81beaa', endColorstr='#005572',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+.gras{
+font-weight:bold;
+}
 
 #wrapper{
 width:1000px;
