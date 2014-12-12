@@ -143,17 +143,38 @@ margin:auto;
 }
 
 
+section#bloc-info-sup {
+display: table;
+position: relative;
+top:0px;
+left:0px;
+border-collapse: separate;
+border-spacing: 20px 0;
+min-height: 250px;
+width: 945px;
+}
+
+.article-nav-sup {
+display: table-cell;
+width: 260px;
+border:1px solid #008b8d;
+border-radius:4px;
+padding:6px;
+text-align:justify;
+}
+
+
 #home-presentation,
 #home-patrimoine,
 #home-locataire{
-display:inline-block;
-border:1px solid #8b292c;
-border-radius:4px;
-width:260px;
-vertical-align:top;
 margin:0px 10px;
-padding:6px;
-text-align:justify;
+}
+
+
+.home-bloc-footer{
+text-align:right;
+font-size:0.8em;
+border-top:1px dotted #fdddb5;
 }
 
 
