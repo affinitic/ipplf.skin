@@ -116,28 +116,45 @@ margin-bottom:16px;
 
 
 
-#content{
+/*** MAIN CONTENT ***/
+#main-content-theme{
 min-height:395px;
 }
 
-#left-column{
+#left-column-theme{
 float:left;
 width:20%;
 margin-left:20px;
 }
 
-#main-column{
+#main-column-theme{
 float:right;
 width:75%;
 margin-right:20px;
 }
 
-#main-column-large {
+#main-column-large-theme{
 float:none;
 width:95%;
 margin:auto;
 }
 
+#content{
+}
+
+
+#home-presentation,
+#home-patrimoine,
+#home-locataire{
+display:inline-block;
+border:1px solid #8b292c;
+border-radius:4px;
+width:260px;
+vertical-align:top;
+margin:0px 10px;
+padding:6px;
+text-align:justify;
+}
 
 
 /*** FOOTER ***/
