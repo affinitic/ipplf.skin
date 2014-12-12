@@ -32,6 +32,7 @@ box-shadow:8px 8px 16px rgba(50,50,50,0.5),
 background-color:#f5efe9;
 }
 
+/*** TOP HEADER ***/
 #top-header-theme{
 border-radius:16px 16px 0px 0px;
 height:60px;
@@ -85,6 +86,35 @@ right:0;
 top:-10px;
 z-index:3;
 }
+
+
+
+/*** HEADER ***/
+#header-theme{
+height:6px;
+}
+
+#portal-logo {
+position:relative;
+left:8px;
+top:-40px;
+z-index:10;
+}
+
+
+
+/*** SLIDER HOMEPAGE ***/
+#icppl-slider{
+position:relative;
+top:0px;
+margin:auto;
+border-top:1px solid #8b292c;
+border-bottom:1px solid #8b292c;
+box-shadow: 0px 8px 16px rgba(50,50,50,0.5);
+margin-bottom:16px;
+}
+
+
 
 #content{
 min-height:395px;
