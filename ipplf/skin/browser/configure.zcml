@@ -12,7 +12,7 @@
         />
 
     <browser:page
-        name="accueil"
+        name="accueil-ipplf"
         for="*"
         template="templates/ipplf_folder_view.pt"
         permission="zope.Public" />
