@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="ipplf.skin">
+
+    <!-- 'Cesstex skin' Zope 3 browser layer -->
+    <interface
+        interface=".interfaces.ICustomTheme"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="ipplf skin"
+        />
+
+    <browser:page
+        name="accueil"
+        for="*"
+        template="templates/ipplf_folder_view.pt"
+        permission="zope.Public" />
+
+
+</configure>
+

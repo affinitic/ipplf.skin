@@ -6,6 +6,7 @@
    <include file="skins.zcml" />
 
    <include package=".viewlets" />
+   <include package=".browser" />
 
    <plone:static type="theme"
                  directory="static"
