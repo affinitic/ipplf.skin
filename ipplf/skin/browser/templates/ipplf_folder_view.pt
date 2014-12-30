@@ -60,7 +60,7 @@
             <footer class="footer-info-generale">
                 <div tal:condition="python:user.has_role(['Manager', 'Site Administrator'], here)"
                      class="bouton-ajouter">
-                    <a href="createObject?type_name=News+Item">ajouter</a>
+                    <a href="++add++News%20Item">ajouter</a>
                 </div>
                 <div class="bouton-suite">
                     <a href=""
