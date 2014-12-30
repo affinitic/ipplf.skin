@@ -11,6 +11,14 @@
         name="ipplf skin"
         />
 
+    <browser:view
+        name="infoHomePage"
+        class=".info_home_page.InfoHomePage"
+        allowed_interface=".interfaces.IInfoHomePage"
+        for="*"
+        permission="zope.Public"
+        />
+
     <browser:page
         name="accueil-ipplf"
         for="*"
