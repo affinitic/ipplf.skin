@@ -17,14 +17,20 @@
             <h2><a href="patrimoine">Patrimoine</a></h2>
             <h2><a href="candidats-locataires-locataires-proprietaires">Locataires</a></h2>
             <h2 id="intranet"
-                tal:condition="python:user.has_role(['Manager'], here)">
+                tal:condition="python:user.has_role(['Manager', 'Member'], here)">
               <a href="conseil-damistration">Intranet</a>
             </h2>
             <h2 id="conseil-administration"
-                tal:condition="python:user.has_role(['Manager'], here)">
-              <a href="conseil-damistration">Conseil d'administration</a>
+                tal:condition="python:user.has_role(['Manager', 'ConseilAdministration'], here)">
+              <a href="presentation/conseil-dadministration">Conseil d'administration</a>
             </h2>
         </nav>
+
+        <div id="carte-wallonie-ipplf">
+            <img src="carte_wallonie_ipplf.png"
+                 alt="Carte IPPLF en Wallonie"
+                 title="Carte IPPLF en Wallonie" />
+        </div>
 
         <div id="info-home-page">
             <h2>Info de la semaine</h2>
