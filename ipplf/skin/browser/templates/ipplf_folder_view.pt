@@ -18,11 +18,11 @@
             <h2><a href="candidats-locataires-locataires-proprietaires">Locataires</a></h2>
             <h2 id="intranet"
                 tal:condition="python:user.has_role(['Manager', 'Member'], here)">
-              <a href="conseil-damistration">Intranet</a>
+              <a href="intranet">Intranet</a>
             </h2>
             <h2 id="conseil-administration"
                 tal:condition="python:user.has_role(['Manager', 'ConseilAdministration'], here)">
-              <a href="presentation/conseil-dadministration">Conseil d'administration</a>
+              <a href="societe/conseil-dadministration">Conseil d'administration</a>
             </h2>
         </nav>
 
