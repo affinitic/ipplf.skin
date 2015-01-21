@@ -61,7 +61,7 @@
     <!--replace css:content-children="#portal-footer"
              css:theme-children="#footer-theme" /-->
 
-    <drop css:theme="#icppl-slider" if-path="societe" />
+    <drop css:theme="#ipplf-slider" if-path="societe" />
 
     <drop css:theme="#left-column-theme" if="$have_no_portlet" />
     <drop css:theme="#main-column-theme" if="$have_no_portlet" />
