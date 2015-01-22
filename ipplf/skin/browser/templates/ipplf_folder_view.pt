@@ -16,13 +16,8 @@
             <h2><a href="societe">Société</a></h2>
             <h2><a href="patrimoine">Patrimoine</a></h2>
             <h2><a href="candidats-locataires-locataires-proprietaires">Locataires</a></h2>
-            <h2 id="intranet"
-                tal:condition="python:user.has_role(['Manager', 'Member'], here)">
+            <h2 id="intranet">
               <a href="intranet">Intranet</a>
-            </h2>
-            <h2 id="conseil-administration"
-                tal:condition="python:user.has_role(['Manager', 'ConseilAdministration'], here)">
-              <a href="cons_admi_priv">Conseil d'administration</a>
             </h2>
         </nav>
 
