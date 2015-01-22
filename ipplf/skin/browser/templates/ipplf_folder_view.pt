@@ -28,7 +28,7 @@
         </div>
 
         <div id="info-home-page">
-            <h2>Info de la semaine</h2>
+            <h2>Actualités</h2>
             <div tal:define="view nocall:context/@@infoHomePage;
                              news python:view.getNews(5);
                              convert nocall:context/@@plone/toLocalizedTime;
