@@ -7,3 +7,12 @@ color:#f17a32; /*#205c90;*/
 color:#8b292c;
 }
 
+
+dl.portlet.portletNavigationTree{
+border:1px solid #8b292c;
+border-radius:6px 0px 6px 0px;
+}
+
+.portletHeader{
+ border-radius:6px 0px 0px 0px;
+}
