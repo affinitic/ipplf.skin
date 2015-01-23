@@ -15,10 +15,9 @@
         <nav id="menu-home">
             <h2><a href="societe">Société</a></h2>
             <h2><a href="patrimoine">Patrimoine</a></h2>
-            <h2><a href="candidats-locataires-locataires-proprietaires">Locataires</a></h2>
-            <h2 id="intranet">
-              <a href="intranet">Intranet</a>
-            </h2>
+            <h2><a href="devenir-locataire">Devenir locataire</a></h2>
+            <h2><a href="locataires">Locataires</a></h2>
+
         </nav>
 
         <div id="carte-wallonie-ipplf">
