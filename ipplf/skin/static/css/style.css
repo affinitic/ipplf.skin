@@ -1,7 +1,7 @@
 /*
 Skin package for IPPLF website CSS BY AFFINITIC
 */
-html{
+html, body{
 height:100%;
 }
 
@@ -15,7 +15,6 @@ font-weight:bold;
 
 #wrapper{
 width:1000px;
-min-height:400px;
 margin:auto;
 background-color:#f5efe9;
 }
@@ -181,8 +180,6 @@ font-size:0.8em;
 #footer-bar{
 background:#3f1f1c;
 width:100%;
-position:absolute;
-bottom:0;
 }
 
 footer#footer-theme{
