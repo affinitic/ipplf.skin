@@ -9,10 +9,19 @@ color:#8b292c;
 
 
 dl.portlet.portletNavigationTree{
-border:1px solid #8b292c;
-border-radius:6px 0px 6px 0px;
+border:1px solid #D39E65;
+border-radius:18px;
+background:#ffeec5;
 }
 
 .portletHeader{
- border-radius:6px 0px 0px 0px;
+border-radius:18px 18px 0px 0px;
+background-color:#f2d18e !important;
+text-transform:small-caps;
+text-align:center;
+color:#8b292c !important;
+}
+
+.portletHeader a:link{
+color:#8b292c !important;
 }
