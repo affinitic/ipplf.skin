@@ -25,3 +25,34 @@ color:#8b292c !important;
 .portletHeader a:link{
 color:#8b292c !important;
 }
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+background-color: #dec099;
+border-left: 1em solid #dec099;
+margin-left: -1em;
+margin-right: -1em;
+}
+
+dl.portlet dd.portletItem ul.navTree li.navTreeItem a{
+background-image:none;
+}
+
+ul.navTree{
+margin-left:0px;
+}
+
+ul.navTreeLevel1{
+margin-left:25px;
+border-left:1px solid #D39E65;
+}
+
+
+a.navTreeFolderish.contenttype-folder{
+padding:0 !important;
+margin:0;
+}
+
+.contenttype-plone-site{
+padding-left:-20px !important;
+font-weight:bold;
+}
