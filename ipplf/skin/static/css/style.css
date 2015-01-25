@@ -102,7 +102,7 @@ z-index:10;
 
 
 /*** SLIDER HOMEPAGE ***/
-#icppl-slider{
+#ipplf-slider{
 position:relative;
 top:0px;
 margin:auto;
@@ -129,7 +129,6 @@ min-height:380px;
 margin-left:20px;
 padding-top:10px;
 padding-right:10px;
-border-right:1px solid #008b8d;
 }
 
 #main-column-theme{
