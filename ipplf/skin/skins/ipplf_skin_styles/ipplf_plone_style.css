@@ -56,3 +56,24 @@ margin:0;
 padding-left:-20px !important;
 font-weight:bold;
 }
+
+dl.portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a.state-internally_published.navTreeFolderish.contenttype-folder{
+color:#00f;
+}
+
+dl.portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a.state-external.navTreeFolderish.contenttype-folder{
+color:#992e00;
+}
+
+dl.portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a.navTreeFolderish.contenttype-folder:hover{
+color:#f17a32 !important;
+/*background-color:rgba(250,250,250,0.3);*/
+}
+
+
+#content h1.documentFirstHeading {
+border-bottom: 1px solid #d39e65;
+color: #8b292c;
+margin-top: 0;
+}
+
