@@ -44,17 +44,18 @@ font-weight:bold;
 
 #top-header-tools{
 float:left;
-width:500px;
-margin-left:55px;
+width:565px;
+margin-left:15px;
 padding-top:10px;
 font-size:0.8em;
 }
 
-#top-header-tools #portal-siteactions{
+#top-header-tools #portal-siteactions-theme{
 float:left;
+margin-left:65px;
 }
 
-#top-header-tools #personal-tools{
+#top-header-tools #personal-tools-theme{
 float:right;
 }
 
@@ -67,21 +68,24 @@ color:#81beaa;
 color:#7acad1;
 }
 
+#top-header-tools #btn-home{
+float:left;
+width:20px;
+}
+
 #top-header-tools #intranet{
-position:relative;
-top:-15px;
-left:220px;
+float:left;
+margin-left:20px;
 }
 
 #top-header-tools #portal-personaltools {
 background:none repeat scroll 0 0 #e3e3e3;
 border-radius:0.5em;
-float:right;
 font-size:80%;
 padding:0.25em 0.5em;
 position:relative;
 right:0;
-top:-10px;
+top:-2px;
 z-index:30;
 }
 
