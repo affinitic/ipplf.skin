@@ -20,9 +20,10 @@
         </nav>
 
         <div id="carte-wallonie-ipplf">
-            <img src="carte_wallonie_ipplf.png"
-                 alt="Carte IPPLF en Wallonie"
-                 title="Carte IPPLF en Wallonie" />
+            <a href="la-wallonie">
+                <img src="carte_wallonie_ipplf.png"
+                     alt="Carte IPPLF en Wallonie"
+                     title="Carte IPPLF en Wallonie" /></a>
         </div>
 
         <div id="info-home-page">
