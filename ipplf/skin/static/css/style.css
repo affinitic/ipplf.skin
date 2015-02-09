@@ -42,6 +42,11 @@ padding-top:10px;
 font-weight:bold;
 }
 
+#top-header-nom a{
+color:#fff;
+}
+
+
 #top-header-tools{
 float:left;
 width:565px;

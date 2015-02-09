@@ -54,12 +54,13 @@
             <footer class="footer-info-generale">
                 <div tal:condition="python:user.has_role(['Manager', 'Site Administrator'], here)"
                      class="bouton-ajouter">
-                    <a href="++add++News%20Item">ajouter</a>
+                    <a href="++add++News%20Item">ajouter une actualite</a>
                 </div>
-                <div class="bouton-suite">
+                <div class="bouton-plus">
                     <a href=""
                        tal:attributes="href string:${context/portal_url}/"></a>
                 </div>
+                <div class="visualClear"></div>
             </footer>
         </div>
         <div class="visualClear"></div>

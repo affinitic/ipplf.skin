@@ -71,3 +71,91 @@ background: -ms-linear-gradient(top,  rgba(250,198,149,0.5) 0%,rgba(245,171,102,
 background: linear-gradient(to bottom,  rgba(250,198,149,0.5) 0%,rgba(245,171,102,0.5) 47%,rgba(239,141,49,0.5) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80fac695', endColorstr='#80ef8d31',GradientType=0 ); /* IE6-9 */
 }
+
+footer.footer-info-generale{
+padding-top:6px;
+border-top:1px dotted #666;
+}
+
+div.bouton-ajouter,
+div.bouton-plus {
+height:20px;
+border:1px solid #DEDEDE;
+border-radius:8px;
+background:rgb(255,255,255); /* Old browsers */
+background:-moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background:-webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background:-o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background:-ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background:linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+div.bouton-ajouter a,
+div.bouton-plus a{
+text-decoration:none;
+border-bottom: 0px  !important;
+}
+
+div.bouton-plus {
+float:right;
+width:30px;
+font-size:15px;
+font-weight:bold;
+line-height:17px;
+}
+
+div.bouton-plus a:after {
+content: "➜";
+}
+
+div.bouton-plus a {
+display: inline-block;
+text-align: center;
+height: 20px;
+width: 30px;
+/*transform: rotate(180deg);*/
+}
+
+div.bouton-ajouter a,
+div.bouton-plus a {
+display: inline-block;
+text-align: center;
+height: 20px;
+width: 30px;
+/*transform: rotate(180deg);*/
+}
+
+div.bouton-plus a:hover,
+div.bouton-ajouter a:hover{
+color:#ff64ff !important;
+}
+
+div.bouton-ajouter{
+float:left;
+width:140px;
+font-size:0.8em;
+text-align:center;
+text-transform: capitalize;
+}
+
+div.bouton-ajouter a{
+display:inline-block;
+width:140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
