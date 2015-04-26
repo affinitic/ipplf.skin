@@ -1,5 +1,15 @@
-a:link, a:visited {
-color:#f17a32; /*#205c90;*/
+#content a:link,
+#content a.internal-link,
+dl.portlet a:link {
+border-bottom: 0.1em solid #ccc;
+color: #c9570b !important;
+}
+
+#content a:hover,
+#content a.internal-link:hover,
+dl.portlet a:hover {
+border-bottom: 0.1em solid #ccc;
+color: #f17a32 !important;
 }
 
 
