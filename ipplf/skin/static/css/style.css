@@ -303,9 +303,20 @@ color:#f17a32;
 }
 
 
+/*** PATRIMOINE CARTO GOOGLE ***/
+#table-patrimoine-carto-google{
+width:100%;
+border:1px dotted #ccc;
+border-radius:12px;
+}
 
+#table-patrimoine-carto-google td{
+padding:4px;
+}
 
-
+#carte-goolge{
+text-align:center;
+}
 
 
 
