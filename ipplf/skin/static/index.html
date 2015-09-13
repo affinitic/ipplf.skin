@@ -12,40 +12,40 @@
   </head>
 
 <body>
-    <div id="header-bar">
-        <div id="top-header-theme">
-            <div id="top-header-nom">
-                <a href="/">
-                Immobilière Publique Péruwelz-Leuze-Frasnes
-                <br />
-                IPPLF</a>
-            </div>
-            <div id="top-header-tools">
-                <div id="btn-home">
-                    <a href="/">
-                        <img src="images/btn_home.png"
-                             alt="accueil"
-                             title="accueil" /></a>
-                </div>
-                <div id="portal-siteactions-theme"></div>
-                <div id="intranet"><a href="intranet">Intranet</a></div>
-                <div id="personal-tools-theme"></div>
+    <div id="wrapper">
+        <header id="header-theme">
+            <div id="portal-logo"></div>
+            <div id="personal-tools-theme" class="item-menu-sup"></div>
+            <div class="visualClear"></div>
+            <div id="header-bar">
+                <nav id="menu-home">
+                    <div id="btn-home" class="item-menu-sup">
+                        <a href="/">
+                            <img src="images/btn_home.png"
+                                 alt="accueil"
+                                 title="accueil" /></a>
+                    </div>
+                    <div class="item-menu-sup"><a href="societe">Société</a></div>
+                    <div class="item-menu-sup">&nbsp;&bull;&nbsp;</div>
+                    <div class="item-menu-sup"><a href="devenir-locataire">Devenir locataire</a></div>
+                    <div class="item-menu-sup">&nbsp;&bull;&nbsp;</div>
+                    <div class="item-menu-sup"><a href="locataire">Etre Locataire</a></div>
+                    <div class="item-menu-sup">&nbsp;&bull;&nbsp;</div>
+                    <div class="item-menu-sup"><a href="intranet">Intranet</a></div>
+                    <div class="item-menu-sup">&nbsp;&bull;&nbsp;</div>
+                    <div class="item-menu-sup"><a href="galerie">Galerie</a></div>
+                    <div class="item-menu-sup">&nbsp;&bull;&nbsp;</div>
+                    <div id="portal-siteactions-theme" class="item-menu-sup"></div>
+                </nav>
                 <div class="visualClear"></div>
             </div>
-        </div>
-    </div>
-    <div class="visualClear"></div>
-    <header id="header-theme">
-            <!--<div id="portal-logo"></div>--><!--XXX en attente du bon logo -->
-    </header><!--header-->
+        </header><!--header-->
 
-    <div id="wrapper">
-        <!--
         <div id="ipplf-slider">
             <img src="slide/img/images/leuze_005.jpg" style="width: 100%;">
         </div>
-        -->
 
+        <!--
         <div id="ipplf-slider"
              class='csslider1 autoplay '>
             <input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide'  autocomplete="off">
@@ -295,7 +295,7 @@
                 </label>
             </div>
         </div>
-
+        -->
         <!--end slider-->
 
 
@@ -356,5 +356,6 @@
             <div class="visualClear"></div>
         </div>
     </div>
+    </div><!--wrapper-->
   </body>
 </html>

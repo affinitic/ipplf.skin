@@ -1,3 +1,28 @@
+#portal-personaltools {
+float: right;
+position: relative;
+right: 0;
+top: 0;
+z-index: 3;
+background: #e3e3e3 none repeat scroll 0 0;
+border-bottom-left-radius: 0.5em;
+border-bottom-right-radius: 0.5em;
+font-size: 80%;
+padding: 0.25em 0.5em;
+width: 180px;
+}
+
+dl.actionMenu.activated dd {
+position: absolute;
+border-bottom-left-radius: 0.5em;
+border-bottom-right-radius: 0.5em;
+min-width: 87%;
+width: auto;
+background:rgba(200,200,200,0.8) !important;
+padding-bottom: 0.5em;
+}
+
+
 #content a:link,
 #content a.internal-link,
 dl.portlet a:link {
@@ -11,12 +36,6 @@ dl.portlet a:hover {
 border-bottom: 0.1em solid #ccc;
 color: #f17a32 !important;
 }
-
-
-#content h1.documentFirstHeading{
-color:#8b292c;
-}
-
 
 dl.portlet.portletNavigationTree{
 border:1px solid #D39E65;
@@ -82,8 +101,7 @@ color:#f17a32 !important;
 
 
 #content h1.documentFirstHeading {
-border-bottom: 1px solid #d39e65;
-color: #8b292c;
+border-bottom: 1px dotted #f79016;
+color:#f79016;
 margin-top: 0;
 }
-

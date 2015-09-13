@@ -6,28 +6,41 @@ height:100%;
 }
 
 body{
-background-color:#f5efe9;
+margin:0;
+padding:0;
+background:#f5efe9 url(../images/top_bg_body.png) repeat-x;
 }
 
 .gras{
 font-weight:bold;
 }
 
+
 #wrapper{
 width:1000px;
 margin:auto;
-background-color:#f5efe9;
 }
 
-/*** TOP HEADER ***/
+
+#portal-logo{
+float:left;
+margin:7px 0px 0px 0px;
+border:1px solid #fff;
+border-radius:7px;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*** HEADER ***/
+
+header#header-theme{
+height:91px;
+}
+
 #header-bar{
-height:60px;
-background:#736357;
-}
-
-#top-header-theme{
-width:1000px;
-margin:auto;
+float:right;
+margin:-40px 40px 0px 0px;
+border:1px solid #fff;
+width:800px;
 }
 
 
@@ -38,7 +51,6 @@ color:#fff;
 font-size:1.1em;
 text-align:center;
 margin-left:12px;
-padding-top:10px;
 font-weight:bold;
 }
 
@@ -46,36 +58,50 @@ font-weight:bold;
 color:#fff;
 }
 
+nav#menu-home{
+margin:auto;
+color:#aaa;
+border:1px solid #f;
+}
 
-#top-header-tools{
+nav#menu-home .item-menu-sup{
 float:left;
-width:565px;
-margin-left:15px;
-padding-top:10px;
+margin-left:10px;
+}
+
+nav#menu-home a{
+display:inline;
+width:200px;
+color:#eee !important;
+text-align:center;
+margin:15px auto;
 font-size:0.8em;
 }
 
-#top-header-tools #portal-siteactions-theme{
-float:left;
-margin-left:65px;
+nav#menu-home a:hover{
+color:#f38b3b !important;
 }
 
-div#portal-personaltools a:hover{
+nav#menu-home #portal-siteactions a{
+color:#81beaa;
+font-size:0.8em;
+}
+
+nav#menu-home #portal-siteactions-theme a:hover{
+color:#7acad1;
+}
+
+
+
+
+nav#menu-home div#portal-personaltools a:hover{
 color:#fff;
 }
 
-#top-header-tools #personal-tools-theme{
+nav#menu-home #personal-tools-theme{
 float:right;
 }
 
-
-#top-header-tools #portal-siteactions a{
-color:#81beaa;
-}
-
-#top-header-tools #portal-siteactions-theme a:hover{
-color:#7acad1;
-}
 
 #top-header-tools #btn-home{
 float:left;
@@ -104,17 +130,6 @@ z-index:30;
 
 
 
-/*** HEADER ***/
-#header-theme{
-height:6px;
-}
-
-#portal-logo {
-position:relative;
-left:8px;
-top:-40px;
-z-index:10;
-}
 
 
 
@@ -194,7 +209,7 @@ font-size:0.8em;
 
 /*** FOOTER ***/
 #footer-bar{
-background:#3f1f1c;
+background:#116a81;
 width:100%;
 }
 
@@ -205,7 +220,7 @@ margin:auto;
 min-height:50px;
 padding:1em;
 font-size:0.7em;
-color:#999;
+color:#bbb;
 }
 
 #footer-contact,
@@ -213,7 +228,7 @@ color:#999;
 #footer-menu{
 display:table-cell;
 vertical-align:top;
-border-right:1px solid #8b292c;
+border-right:1px solid #6ca1ba;
 padding:15px;
 }
 
@@ -266,9 +281,9 @@ margin-right:15px;
 /*** COLOPHON ***/
 div#colophon-theme{
 width:100%;
-border-top:1px dotted #8b292c;
+border-top:1px dotted #6ca1ba;
 padding:4px 0px;
-background-color:#3f1f1c;
+background-color:#116a81;
 border-radius:0px 0px 16px 16px;
 }
 
