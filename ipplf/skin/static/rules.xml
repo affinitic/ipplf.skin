@@ -62,6 +62,11 @@
              css:theme-children="#footer-theme" /-->
 
     <drop css:theme="#ipplf-slider" if-path="societe" />
+    <drop css:theme="#ipplf-slider" if-path="devenir-locataire" />
+    <drop css:theme="#ipplf-slider" if-path="etre-locataire" />
+    <drop css:theme="#ipplf-slider" if-path="intranet" />
+    <drop css:theme="#ipplf-slider" if-path="galerie" />
+
 
     <drop css:theme="#left-column-theme" if="$have_no_portlet" />
     <drop css:theme="#main-column-theme" if="$have_no_portlet" />
