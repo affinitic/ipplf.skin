@@ -11,6 +11,7 @@
 <body>
 <div metal:fill-slot="main">
     <h1 class="documentFirstHeading">Bienvenue sur le site de l'Immobilière Publique Péruwelz-Leuze-Frasnes</h1>
+    <br />
     <section>
         <div id="carte-wallonie-ipplf">
             <a href="la-wallonie">
@@ -44,19 +45,19 @@
                     </tal:boucle>
                 </tal:if>
             </div>
+            <footer class="footer-info-generale">
+                <div tal:condition="python:user.has_role(['Manager', 'Site Administrator'], here)"
+                     class="bouton-ajouter">
+                    <a href="++add++News%20Item">ajouter une actualite</a>
+                </div>
+                <div class="bouton-plus">
+                    <a href=""
+                       tal:attributes="href string:${context/portal_url}/"></a>
+                </div>
+                <div class="visualClear"></div>
+            </footer>
         </div>
     </section>
-    <footer class="footer-info-generale">
-        <div tal:condition="python:user.has_role(['Manager', 'Site Administrator'], here)"
-             class="bouton-ajouter">
-            <a href="++add++News%20Item">ajouter une actualite</a>
-        </div>
-        <div class="bouton-plus">
-            <a href=""
-               tal:attributes="href string:${context/portal_url}/"></a>
-        </div>
-        <div class="visualClear"></div>
-    </footer>
     <div class="visualClear"></div>
 </div><!-- div metal-->
 </body>
