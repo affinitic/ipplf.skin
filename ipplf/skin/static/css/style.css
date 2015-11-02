@@ -80,18 +80,6 @@ nav#menu-home a:hover{
 color:#fff !important;
 }
 
-nav#menu-home #portal-siteactions a{
-color:#81beaa;
-font-size:0.8em;
-}
-
-nav#menu-home #portal-siteactions-theme a:hover{
-color:#7acad1;
-}
-
-
-
-
 nav#menu-home div#portal-personaltools a:hover{
 color:#fff;
 }
@@ -285,21 +273,32 @@ background-color:#116a81;
 border-radius:0px 0px 16px 16px;
 }
 
+div.colophon-row
+{
+display: table;
+width: 100%; /*Optional*/
+table-layout: fixed; /*Optional*/
+border-spacing: 10px; /*Optional*/
+}
+div.colophon-column
+{
+display: table-cell;
+}
+
 
 div#colophon-theme div#affinitic,
+div#colophon-theme div#portal-siteactions-theme,
 div#colophon-theme div#plone{
 font-size:0.7em;
 color:#888;
 }
 
 div#colophon-theme div#affinitic{
-float:left;
 text-align:left;
 margin-left:15px;
 }
 
 div#colophon-theme div#plone{
-float:right;
 text-align:right;
 margin-right:15px;
 }
@@ -314,6 +313,19 @@ div#colophon-theme div#affinitic a:hover,
 div#colophon-theme div#plone a:hover{
 color:#f17a32;
 }
+
+#portal-siteactions-theme{
+text-align:center;
+}
+
+#portal-siteactions-theme a{
+color:#aaa !important;
+}
+
+#portal-siteactions-theme a:hover{
+color:#fff !important;
+}
+
 
 
 /*** PATRIMOINE CARTO GOOGLE ***/
