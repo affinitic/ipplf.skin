@@ -350,6 +350,11 @@ width:90%;
 margin:auto;
 }
 
+table.table-icone td,
+table.table-icone th{
+text-align:center;
+}
+
 #content table.table-icone a:link{
 text-decoration:none;
 border-bottom:0px solid #f00;
