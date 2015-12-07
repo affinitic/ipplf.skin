@@ -343,3 +343,17 @@ padding:4px;
 text-align:center;
 }
 
+
+/*** TABLE DES ICONES ***/
+table.table-icone{
+width:90%;
+margin:auto;
+}
+
+#content table.table-icone a:link{
+text-decoration:none;
+border-bottom:0px solid #f00;
+}
+
+
+
