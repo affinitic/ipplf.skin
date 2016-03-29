@@ -25,13 +25,5 @@
         template="templates/ipplf_folder_view.pt"
         permission="zope.Public" />
 
-
-    <browser:page
-        name="formulaire-de-demande-d-intervention"
-        for="*"
-        template="templates/formulaire_demande_intervention.pt"
-        permission="zope.Public" />
-
-
 </configure>
 
