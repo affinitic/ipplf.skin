@@ -5,7 +5,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Skin package for IPPLF website"
+      title="IPPLF skin"
       directory="profiles/default"
       description="Installs profile for Skin package for IPPLF website"
       provides="Products.GenericSetup.interfaces.EXTENSION"
