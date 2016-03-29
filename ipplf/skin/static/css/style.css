@@ -383,7 +383,7 @@ color:rgba(255,255,255,1);
 transition: all 0.5s ease 0s;
 }
 
-table#table-chauffage{
+table.table-form-demande-intervention{
 width:95%;
 margin:auto;
 }
