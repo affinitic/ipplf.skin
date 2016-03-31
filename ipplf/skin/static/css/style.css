@@ -388,5 +388,27 @@ width:95%;
 margin:auto;
 }
 
+.bouton-modifier{
+display:inline-block;
+width:30px;
+height:30px;
+border:1px solid #ccc;
+border-radius:18px;
+font-size: 25px;
+font-weight:bold;
+text-align:center;
+line-height:30px;
+background-color:#aad1d3;
+transition:all 0.2s ease-in;
+transition:all 0.2s ease-in;
+-moz-transition:all 0.2s ease-in;
+-o-transition:all 0.2s ease-in;
+-webkit-transition:all 0.2s ease-in;
+-ms-transition:all 0.2s ease-in;
+}
 
+
+.bouton-modifier:hover{
+background-color:#d6fdff;
+}
 
