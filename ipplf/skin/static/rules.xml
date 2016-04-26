@@ -41,6 +41,11 @@
     <replace css:content-children="#portal-logo"
              css:theme-children="#portal-logo" />
 
+    <!-- Logo link -->
+    <copy attributes="href"
+          css:content="#portal-logo"
+          css:theme="#portal-logo .logo-link" />
+
     <replace css:content-children="#portal-column-one"
              css:theme-children="#left-column-theme" />
 
@@ -67,9 +72,38 @@
     <drop css:theme="#ipplf-slider" if-path="intranet" />
     <drop css:theme="#ipplf-slider" if-path="galerie" />
     <drop css:theme="#ipplf-slider" if-path="gestion" />
+    <drop css:theme="#ipplf-slider" if-path="plone_control_panel" />
 
     <drop css:theme="#left-column-theme" if="$have_no_portlet" />
     <drop css:theme="#main-column-theme" if="$have_no_portlet" />
     <drop css:theme="#main-column-large-theme" if="$have_portlets" />
 
 </rules>
+
+
+
+
+
+
+
+<a class="internal-link" href="resolveuid/a5c9383752cc49cdbf27461654e9eb18" target="_self" title="Conseil d'administration"><img class="image-inline" src="resolveuid/cf9b6a844ecd44c98ae7c0f2ad576fa3" title="Conseil d'administration" /><span class="titre-icone">Conseil d'administration</span></a>
+
+
+
+<a class="internal-link" href="resolveuid/02798e2b53dd404f9c4f264cf16086e5" target="_self" title="Nos chantiers"><img class="image-inline" src="resolveuid/13e8c51e524743a98de73437f03c203d" title="Nos chantiers" /><span class="titre-icone">Nos chantiers</span></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
