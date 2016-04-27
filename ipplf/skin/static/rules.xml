@@ -63,6 +63,12 @@
     <replace css:content-children="#footer-sitemap"
              css:theme-children="#footer-menu" />
 
+    <replace css:content-children="#carte-google" >
+        <iframe height="950"
+                width="650"
+                src="https://www.google.com/maps/d/embed?mid=zZOTzX3QXrac.kt3MEdexTI1o&amp;z=11"></iframe>
+    </replace>
+
     <!--replace css:content-children="#portal-footer"
              css:theme-children="#footer-theme" /-->
 
@@ -79,31 +85,3 @@
     <drop css:theme="#main-column-large-theme" if="$have_portlets" />
 
 </rules>
-
-
-
-
-
-
-
-<a class="internal-link" href="resolveuid/a5c9383752cc49cdbf27461654e9eb18" target="_self" title="Conseil d'administration"><img class="image-inline" src="resolveuid/cf9b6a844ecd44c98ae7c0f2ad576fa3" title="Conseil d'administration" /><span class="titre-icone">Conseil d'administration</span></a>
-
-
-
-<a class="internal-link" href="resolveuid/02798e2b53dd404f9c4f264cf16086e5" target="_self" title="Nos chantiers"><img class="image-inline" src="resolveuid/13e8c51e524743a98de73437f03c203d" title="Nos chantiers" /><span class="titre-icone">Nos chantiers</span></a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
