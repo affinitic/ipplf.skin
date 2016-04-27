@@ -11,6 +11,7 @@ padding:0;
 background:#f5efe9 url(../images/top_bg_body.png) repeat-x;
 }
 
+
 .gras{
 font-weight:bold;
 }
@@ -339,6 +340,20 @@ border-radius:12px;
 #table-patrimoine-carto-google td{
 padding:4px;
 }
+
+#patrimoine-description{
+border-right:1px dotted #ccc;
+}
+
+#patrimoine-description hr{
+border-top: 1px dotted #ccc;
+}
+
+#patrimoine-description h3{
+background-color:rgba(255,213,140,1);
+padding-left:5px;
+}
+
 
 #carte-google{
 text-align:center;
