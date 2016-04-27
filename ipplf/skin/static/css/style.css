@@ -340,8 +340,10 @@ border-radius:12px;
 padding:4px;
 }
 
-#carte-goolge{
+#carte-google{
 text-align:center;
+vertical-align:top;
+padding-top:8px;
 }
 
 
