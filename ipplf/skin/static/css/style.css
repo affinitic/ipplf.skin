@@ -1,6 +1,10 @@
 /*
-Skin package for IPPLF website CSS BY AFFINITIC
+Skin package for IPPLF website CSS
+BY AFFINITIC
+
+style for static
 */
+
 html, body{
 height:100%;
 }
@@ -152,14 +156,13 @@ padding-right:10px;
 }
 
 #main-column-theme{
-float:right;
-width:74%;
-margin-right:10px;
+width:100%
+margin:auto;
 }
 
 #main-column-large-theme{
 float:none;
-width:95%;
+width:100%;
 margin:auto;
 }
 

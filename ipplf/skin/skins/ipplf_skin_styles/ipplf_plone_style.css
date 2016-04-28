@@ -26,7 +26,7 @@ padding-bottom: 0.5em;
 #content a:link,
 #content a.internal-link,
 dl.portlet a:link {
-border-bottom: 0.1em solid #ccc;
+/*border-bottom: 0.1em solid #888;*/
 color: #c9570b !important;
 }
 
@@ -37,6 +37,10 @@ border-bottom: 0.1em solid #ccc;
 color: #f17a32 !important;
 }
 
+dl.portlet{
+font-size:1em;
+}
+
 dl.portlet.portletNavigationTree,
 dl.portlet.QuickUploadPortlet{
 border:1px solid #D39E65;
@@ -44,9 +48,58 @@ border-radius:18px;
 background:#ffeec5;
 }
 
+
+div#info-home-page h2,
+div#portlet-inscription-newsletter dt.portletHeader{
+background-color:transparent !important;
+border-bottom:1px dotted #f79016;
+text-transform:small-caps;
+text-align:center;
+color:#8b292c !important;
+font-size:12pt;
+}
+
+div#info-home-page h2{
+font-size:13pt;
+letter-spacing:1px;
+}
+
+div#portlet-inscription-newsletter{
+padding:6px 1.2em 1.2em 1.2em;
+}
+
+article.ipplfnews-content{
+line-height:normal;
+font-size:0.8em;
+}
+
+article.ipplfnews-content a{
+display:block;
+border-radius:6px;
+}
+
+article.ipplfnews-content a:hover{
+text-decoration:none;
+background-color:rgba(250,250,250, 0.5);
+}
+
+article.ipplfnews-content h3.ipplfnews-title{
+margin:0;
+padding-left:3px;
+}
+
+article.ipplfnews-content h3.ipplfnews-title{
+color:#005c00;
+}
+
+article.ipplfnews-content p{
+padding:3px 5px 0px 9px;
+}
+
+/*
 .portletHeader{
-border-radius:18px 18px 0px 0px;
-background-color:#f2d18e !important;
+background-color:transparent !important;
+border-bottom:1px dotted #f79016;
 text-transform:small-caps;
 text-align:center;
 color:#8b292c !important;
@@ -55,6 +108,7 @@ color:#8b292c !important;
 .portletHeader a:link{
 color:#8b292c !important;
 }
+*/
 
 dl.portlet ul.navTree .navTreeCurrentItem {
 background-color: #dec099;

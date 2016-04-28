@@ -1,10 +1,36 @@
-#carte-wallonie-ipplf{
-float:left;
-margin-left:30px;
+/*
+Skin package for IPPLF website CSS
+BY AFFINITIC
+
+style for homepage
+*/
+
+
+
+#bloc-portlet{
+display:table;
+border-collapse:separate;
+border-spacing:8px 0px;
+width:100%;
+}
+
+
+#carte-wallonie-ipplf,
+#portlet-inscription-newsletter,
+#info-home-page{
+display:table-cell;
+width:285px;
+vertical-align:top;
+margin:0px 10px 0px 0px;
 border-radius:25px;
 border:1px solid #D39E65;
 min-height:180px;
 padding:1.2em;
+
+}
+
+#carte-wallonie-ipplf{
+vertical-align:middle;
 background: rgb(242,245,246); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(242,245,246,1) 0%, rgba(227,234,237,1) 37%, rgba(200,215,220,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,245,246,1)), color-stop(37%,rgba(227,234,237,1)), color-stop(100%,rgba(200,215,220,1))); /* Chrome,Safari4+ */
@@ -16,13 +42,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', end
 }
 
 
+#carte-wallonie-ipplf a:link{
+border-bottom:none !important;
+}
+
+#portlet-inscription-newsletter,
 #info-home-page{
-float:right;
-width:33%;
-min-height:180px;
-border-radius:25px;
-border:1px solid #D39E65;
-padding:1.2em;
 background: -moz-linear-gradient(top,  rgba(250,198,149,0.5) 0%, rgba(245,171,102,0.5) 47%, rgba(239,141,49,0.5) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(250,198,149,0.5)), color-stop(47%,rgba(245,171,102,0.5)), color-stop(100%,rgba(239,141,49,0.5))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgba(250,198,149,0.5) 0%,rgba(245,171,102,0.5) 47%,rgba(239,141,49,0.5) 100%); /* Chrome10+,Safari5.1+ */

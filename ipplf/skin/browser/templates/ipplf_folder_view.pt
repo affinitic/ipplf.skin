@@ -12,7 +12,7 @@
 <div metal:fill-slot="main">
     <h1 class="documentFirstHeading">Bienvenue sur le site de l'Immobilière Publique Péruwelz-Leuze-Frasnes</h1>
     <br />
-    <section>
+    <section id="bloc-portlet">
         <div id="carte-wallonie-ipplf">
             <a href="la-wallonie">
                 <img src="carte_wallonie_ipplf.png"
@@ -30,14 +30,14 @@
                 class="info-generale-content">
                 <tal:if tal:condition="news">
                     <tal:boucle tal:repeat="item news">
-                        <article class="ismnews-content">
+                        <article class="ipplfnews-content">
                               <a href=""
                                  tal:attributes="href item/getURL;
                                                  title item/Description">
                                   <h3 tal:content="item/pretty_title_or_id"
-                                      class="ismnews-title" />
+                                      class="ipplfnews-title" />
                                 <p tal:content="item/Description"
-                                   class="ismnews-description"></p>
+                                   class="ipplfnews-description"></p>
                             </a>
                               <!--<span tal:content="python: convert(item.Date)"
                                     class="ismnews-date" />-->
@@ -57,6 +57,9 @@
                 <div class="visualClear"></div>
             </footer>
         </div>
+
+        <div id="portlet-inscription-newsletter"></div>
+
     </section>
     <div class="visualClear"></div>
 </div><!-- div metal-->
