@@ -11,6 +11,14 @@ color:#f00;
 color:#a0202b;
 }
 
+.texte-orange{
+color:#f79016;
+}
+
+.texte-blanc{
+color:#ffffff;
+}
+
 .zone-jaune{
 background-color:#fff6af;
 border-radius:8px;
@@ -28,6 +36,3 @@ background-color:#116a81;
 padding:6px;
 }
 
-.texte-orange{
-color:#f79016;
-}
