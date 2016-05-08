@@ -46,6 +46,9 @@
           css:content="#portal-logo"
           css:theme="#portal-logo .logo-link" />
 
+    <replace css:content-children="#portal-column-one"
+             css:theme-children="#left-column-theme" />
+
     <replace css:content-children="#portal-column-content"
              css:theme-children="#main-column-theme"
              if="$have_portlets" />
@@ -78,7 +81,6 @@
     <!--replace css:content-children="#portal-footer"
              css:theme-children="#footer-theme" /-->
 
-    <drop css:content="#portal-column-one" />
 
     <drop css:theme="#ipplf-slider" if-path="societe" />
     <drop css:theme="#ipplf-slider" if-path="devenir-locataire" />
@@ -89,7 +91,9 @@
     <drop css:theme="#ipplf-slider" if-path="plone_control_panel" />
     <drop css:theme="#ipplf-slider" if-path="++add++News%20Item" />
 
-    <drop css:theme="#left-column-theme" />
+    <!--drop css:content="#portal-column-one" /-->
+    <drop css:theme="#left-column-theme" if-not-path="galerie" />
+    <drop css:content-children=".portletMailChimp" if-path="galerie" />
     <drop css:theme="#main-column-theme" if="$have_no_portlet" />
     <drop css:theme="#main-column-large-theme" if="$have_portlets" />
 

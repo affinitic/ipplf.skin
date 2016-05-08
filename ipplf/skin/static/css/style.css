@@ -144,10 +144,12 @@ min-height:335px;
 }
 
 #central-bloc {
+display:table;
+width:100%;
 }
 
 aside#left-column-theme{
-float:left;
+display:table-cell;
 width:20%;
 min-height:380px;
 margin-left:20px;
@@ -155,9 +157,10 @@ padding-top:10px;
 padding-right:10px;
 }
 
-#main-column-theme{
-width:100%
-margin:auto;
+
+#main-column-theme {
+display:table-cell;
+width:100%;
 }
 
 #main-column-large-theme{
