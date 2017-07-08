@@ -4,8 +4,11 @@
 
   <section class="section-nav-inf"
            tal:repeat="elt sitemap">
-    <h2 tal:define="theme elt/theme"
-        tal:content="theme/Title"></h2>
+    <span tal:define="theme elt/theme">
+        <a href=""
+           tal:attributes="href theme/id">
+            <h2 tal:content="theme/Title"></h2></a>
+    </span>
     <ul>
         <tal:blc tal:repeat="child python:elt['children']">
             <li tal:define="childURL child/getURL; childURL2 python: childURL+'/';"
