@@ -286,7 +286,7 @@ color:#fff;
 #footer-menu{
 width:1000px;
 margin:auto;
-border-top:1px solid #6ca1ba;
+padding-top:1em;
 }
 
 footer nav#footer-menu ul,
